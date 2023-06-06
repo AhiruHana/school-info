@@ -1,0 +1,125 @@
+body {
+    background-color: #F8EDE6;
+}
+
+.active{
+    color: #B4C472 !important;
+}
+
+nav {
+    font-size: larger;
+    font-weight: 500;
+    
+}
+.menu{
+    width: 100%;
+    border-bottom: 2px solid #B4C472;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    top: 0;
+}
+
+.menu:hover{
+    color: #B4C472 !important;
+    background-color: white;
+}
+.search-box{
+    border: 2px solid #B4C472;
+    border-radius: 7px;
+}
+.search-box input{
+    border: none;
+}
+.search-box button{
+    border:none ;
+    color: #B4C472;
+}
+.logo {
+    height: 55px;
+    margin-right: 20px;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+.banner{
+    margin-top: 70px;
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.banner h1{
+    font-size:3rem;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+.main{
+    display: table-cell;
+    vertical-align: middle;
+}
+.avatar{
+    height: 100px;
+}
+
+.row h2{
+    color:#996D2A;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    color: #556484;
+}
+
+.slide-img{
+    padding: 10px;
+    height: 250px;
+}
+
+.slide-img:hover{
+    padding: 0;
+    transition: padding 0.3s linear;
+}
+.img-full-width-fix-height{
+    max-width: 100%;  
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+#school-list{
+    height: 600px;
+    overflow: hidden;
+}
+#school-list .col-md-9{
+    position: relative;
+}
+.news{
+    position: sticky;
+    top:0;
+    background-color: #B4C472;
+    height: 540px;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid #B4C472;
+    padding-top:3%;
+    color: #996D2A;
+    
+}
+footer img{
+    width: 45%;
+}
+
+footer i {
+    margin-top: 5px;
+}
