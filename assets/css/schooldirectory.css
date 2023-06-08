@@ -1,0 +1,49 @@
+#check-list{
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    border-radius: 10px;
+    background-color: white;
+    overflow: auto;
+}
+.school_name{
+    position: relative;
+    height: 150px;
+}
+#check-list td{
+    position: relative;
+}
+.sports{
+    position: absolute;
+    right: 0;
+    top:15px;
+}
+.check-button{
+    background-color: #B4C472;
+}
+.download-button{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background-color: #B4C472;
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#pagination a:hover {
+    background-color: #333;
+    color: #fff;
+}

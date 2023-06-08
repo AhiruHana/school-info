@@ -69,7 +69,7 @@ img {
 }
 .avatar{
     height: 150px;
-    margin: 0px 10px;
+    margin: 0px 0px;
 }
 
 
@@ -138,10 +138,4 @@ footer i {
     margin-top: 5px;
 }
 
-#check-list{
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    border-radius: 10px;
-    overflow: auto;
-}
+

@@ -19,4 +19,19 @@ function sidebar(sidebar_block,content_block){
 sidebar('#check-list','#school-list-child');
 sidebar('#news','#school-list-child');
 
+var links = document.querySelectorAll('#pagination a');
+
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(e) {
+        e.preventDefault();
+        var page = this.getAttribute('href').split('=')[1];
+        loadPage(page);
+    });
+}
+
+function loadPage(page) {
+    // Xử lý AJAX để tải nội dung mới cho trang hiện tại
+    // Hoặc tải lại trang hoàn toàn
+}
+
 

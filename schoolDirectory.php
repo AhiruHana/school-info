@@ -11,26 +11,26 @@ include 'layout/head.php'
     <main>
         <div class="container">
             <div id="school-list" class="row mt-5 mb-5">
-                <div id="check-list" class="col-md-4">
-                    <h4>Customs</h4>
-                    <form class="form-control">
+                <div class="col-md-4">
+
+                    <form id="check-list" class="form-control">
 
                         <table class="table table-border">
                             <tr>
-                                <td><label>Level</label></td>
+                                <td>Level</td>
                                 <td>
                                     <select class="form-control">
-                                        <option>dhhfd</option>
-                                        <option>Ba Đình</option>
-                                        <option>Cầu Giấy</option>
-                                        <option>Ba Đình</option>
-                                        <option>Cầu Giấy</option>
-                                        <option>Ba Đình</option>
+                                        <option>Kindergarten</option>
+                                        <option>Elemengarten</option>
+                                        <option>Junior High School</option>
+                                        <option>High School</option>
+                                        <option>Specialized School</option>
+                                        <option>University and College</option>
                                     </select>
                                 </td>
                             </tr>
                             <tr>
-                                <td><label>ssuwsc </label></td>
+                                <td>Capacity of Students</td>
                                 <td>
                                     <select class="form-control">
                                         <option>0 - 200</option>
@@ -42,10 +42,10 @@ include 'layout/head.php'
                                 </td>
                             </tr>
                             <tr>
-                                <td><label>Address</label></td>
+                                <td>Address</td>
                                 <td>
                                     <select class="form-control">
-                                        <option>câp2</option>
+                                        <option>Thanh Xuân</option>
                                         <option>Ba Đình</option>
                                         <option>Cầu Giấy</option>
                                         <option>Ba Đình</option>
@@ -55,15 +55,15 @@ include 'layout/head.php'
                                 </td>
                             </tr>
                             <tr>
-                                <td><label>Library</label></td>
+                                <td>Library</td>
                                 <td><input type="checkbox"></td>
                             </tr>
                             <tr>
-                                <td><label>Library</label></td>
+                                <td>Canteen</td>
                                 <td><input type="checkbox"></td>
                             </tr>
                             <tr>
-                                <td><label>Library</label></td>
+                                <td>Boarding</td>
                                 <td><input type="checkbox"></td>
                             </tr>
                             <tr>
@@ -71,45 +71,51 @@ include 'layout/head.php'
                                 <td></td>
                             </tr>
                             <tr>
-                                <td class="d-flex">
-                                    <label>Swimming </label>
-                                    <input type="checkbox" name="swimming" value="swimming">
-                                </td>
-                                <td class="d-flex">
-                                    <label>Swimming </label>
-                                    <input type="checkbox" name="swimming" value="swimming">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="d-flex" style="border: 1px solid;">
-                                    <label>Swimming </label>
-                                    <input type="checkbox" name="swimming" value="swimming">
-                                </td>
-                                <td class="d-flex" style="border: 1px solid;">
-                                    <label>Swimming </label>
-                                    <input type="checkbox" name="swimming" value="swimming">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
                                 <td>
-                                    <button class="btn"> Submit</button>
+                                    Swimming
+                                    <input class="sports" type="checkbox" name="swimming" value="swimming">
                                 </td>
+                                <td>
+                                    Football
+                                    <input class="sports" type="checkbox" name="football" value="swimming">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Basketball
+                                    <input class="sports" type="checkbox" name="swimming" value="swimming">
+                                </td>
+                                <td>
+                                    Badminton
+                                    <input class="sports" type="checkbox" name="swimming" value="swimming">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn check-button"> Submit</button>
+                                </td>
+                                <td></td>
                             </tr>
                         </table>
                     </form>
                 </div>
 
                 <div id="school-list-child" class="col-md-8 mt-2">
-                    <div class="">
+                    <div class="row">
                         <h2>Kindergarten Schools</h2>
-                        <div class="row mt-5 d-flex">
+                        <div class="row mt-5">
                             <div class="col-md-5 avatar">
                                 <img class="img-full-width-fix-height" src="assets/img/school/school1.png">
                             </div>
                             <div class="col-md-7 school_name">
                                 <h6>Hanoi International School
                                 </h6>
+                                <div class="content">
+                                    fgefnbgedjhbfdbffhfg
+                                </div>
+                                <div class="">
+                                    <button class="btn download-button">Download</button>
+                                </div>
                             </div>
                         </div>
 
@@ -118,8 +124,14 @@ include 'layout/head.php'
                                 <img class="img-full-width-fix-height" src="assets/img/school/school1.png">
                             </div>
                             <div class="col-md-7 school_name">
-                                <p>Hanoi International School
-                                </p>
+                                <h6>Hanoi International School
+                                </h6>
+                                <div class="content">
+                                    fgefnbgedjhbfdbffhfg
+                                </div>
+                                <div class="download-button">
+                                    <button class="btn btn-success">Download</button>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-5">
@@ -129,6 +141,12 @@ include 'layout/head.php'
                             <div class="col-md-7 school_name">
                                 <h6>Hanoi International School
                                 </h6>
+                                <div class="content">
+                                    fgefnbgedjhbfdbffhfg
+                                </div>
+                                <div class="download-button">
+                                    <button class="btn btn-success">Download</button>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-5">
@@ -138,6 +156,12 @@ include 'layout/head.php'
                             <div class="col-md-7 school_name">
                                 <h6>Hanoi International School
                                 </h6>
+                                <div class="content">
+                                    fgefnbgedjhbfdbffhfg
+                                </div>
+                                <div class="download-button">
+                                    <button class="btn btn-success">Download</button>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-5">
@@ -147,6 +171,12 @@ include 'layout/head.php'
                             <div class="col-md-7 school_name">
                                 <h6>Hanoi International School
                                 </h6>
+                                <div class="content">
+                                    fgefnbgedjhbfdbffhfg
+                                </div>
+                                <div class="download-button">
+                                    <button class="btn btn-success">Download</button>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-5">
@@ -156,19 +186,23 @@ include 'layout/head.php'
                             <div class="col-md-7 school_name">
                                 <h6>Hanoi International School
                                 </h6>
-                            </div>
-                        </div>
-                        <div class="row mt-5">
-                            <div class="col-md-5 avatar">
-                                <img class="img-full-width-fix-height" src="assets/img/school/school1.png">
-                            </div>
-                            <div class="col-md-7 school_name">
-                                <h6>Hanoi International School
-                                </h6>
+                                <div class="content">
+                                    fgefnbgedjhbfdbffhfg
+                                </div>
+                                <div class="download-button">
+                                    <button class="btn btn-success">Download</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="pagination">
+                <a href="?page=1">1</a>
+                <a href="?page=2">2</a>
+                <a href="?page=3">3</a>
+                <a href="?page=4">4</a>
+                <a href="?page=5">5</a>
             </div>
         </div>
     </main>

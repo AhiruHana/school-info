@@ -358,6 +358,7 @@ include 'layout/head.php'
                     <img class="img-full-width-fix-height" src="assets/img/slide/slide-6.png">
                 </div>
             </div>
+            
         </div>
     </main>
     <?php
