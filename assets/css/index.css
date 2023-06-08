@@ -1,6 +1,9 @@
 body {
     background-color: #F8EDE6;
 }
+.container{
+    width: 1300px;
+}
 
 .active{
     color: #B4C472 !important;
@@ -11,7 +14,7 @@ nav {
     font-weight: 500;
     
 }
-.menu{
+#menu{
     width: 100%;
     border-bottom: 2px solid #B4C472;
     position: fixed;
@@ -65,8 +68,10 @@ img {
     vertical-align: middle;
 }
 .avatar{
-    height: 100px;
+    height: 150px;
+    margin: 0px 10px;
 }
+
 
 .row h2{
     color:#996D2A;
@@ -77,7 +82,7 @@ a{
     color:inherit;
 }
 a:hover{
-    color: #556484;
+    color: #A987CB;
 }
 
 .slide-img{
@@ -89,24 +94,33 @@ a:hover{
     padding: 0;
     transition: padding 0.3s linear;
 }
+
 .img-full-width-fix-height{
     max-width: 100%;  
     max-height: 100%;
     height: 100%;
     width: 100%;
+    border-radius: 5px;
+    
 }
-#school-list{
-    height: 600px;
-    overflow: hidden;
-}
-#school-list .col-md-9{
-    position: relative;
-}
-.news{
+
+#news{
+    position: -webkit-sticky;
     position: sticky;
-    top:0;
+    right: 0;
     background-color: #B4C472;
-    height: 540px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+#news p{
+    font-style: italic;
+    margin: 5px 10px;
+    color: #F8EDE6;
+}
+
+.video{
+    padding: 0px 10px;
 }
 footer{
     width: 100%;
@@ -122,4 +136,12 @@ footer img{
 
 footer i {
     margin-top: 5px;
+}
+
+#check-list{
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    border-radius: 10px;
+    overflow: auto;
 }
